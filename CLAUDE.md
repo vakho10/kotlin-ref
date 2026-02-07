@@ -22,7 +22,7 @@ Note: Changes to `_config.yml` require restarting the server.
 - `docs/` - Jekyll source files (deployed via GitHub Pages from /docs)
   - `_posts/` - Blog posts (markdown with YAML frontmatter)
   - `_config.yml` - Jekyll site configuration
-  - `Gemfile` - Ruby dependencies (github-pages gem, Minima theme)
+  - `Gemfile` - Ruby dependencies (github-pages gem, jekyll-remote-theme)
   - `index.markdown`, `about.markdown` - Static pages
   - `_site/` - Generated output (gitignored)
 
@@ -40,4 +40,4 @@ categories: category1 category2
 
 ## Theme
 
-Uses the Minima theme (~> 2.5). Theme files are external; override by creating matching files in `docs/`.
+Uses the [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) remote theme (`remote_theme: sighingnow/jekyll-gitbook` in `_config.yml`). Theme files are external; override by creating matching files in `docs/`.
